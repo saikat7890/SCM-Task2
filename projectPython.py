@@ -15,13 +15,13 @@ def update():
 
 window = Tk()
 
-time_label = Label(window,font=("calibri",150),fg="dark green",bg="black")
+time_label = Label(window,font=("calibri",160),fg="dark green",bg="black")
 time_label.pack()
 
-day_label = Label(window,font=("calibri",50,"bold"),fg="black")
+day_label = Label(window,font=("calibri",60,"bold"),fg="black")
 day_label.pack()
 
-date_label = Label(window,font=("calibri",50,"bold"),fg="black")
+date_label = Label(window,font=("calibri",60,"bold"),fg="black")
 date_label.pack()
 
 update()
